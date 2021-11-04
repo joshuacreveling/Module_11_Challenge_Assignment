@@ -67,6 +67,12 @@ import numpy as np
 %matplotlib inline
 ```
 
+In order to render hvPlots in Colab, run the following code prior to hvPlot command: 
+
+```python 
+# Holoviews extension to render hvPlots in Colab
+hv.extension('bokeh')
+```
 ---
 
 ## Contributors
